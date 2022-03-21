@@ -1,0 +1,451 @@
+.testmonials_section{
+    background-color: #f7fbfe;
+    padding: 60px 0;
+    overflow: hidden;
+}
+.testmonials_title{
+    text-align: center;
+    padding-bottom: 45px;
+}
+.testmonials_section  .testmonials_title h2{
+    position: relative;
+    max-width: 450px;
+    margin: 20px auto;
+    text-align: center;
+}
+.hr:before
+{
+    content: " ";
+    height: 2px;
+    width: 55px;
+    background-color: #3498db;
+    display:inline-block;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+}
+.hr:after
+{
+    content: " ";
+    height: 2px;
+    width: 50px;
+    background-color: #3498db;
+    display:inline-block;
+    position: absolute;
+    top: 50%;
+    right: 40px;
+}
+
+.testmonials_section  .testmonials_title p{
+    color: #444444;
+    font-family:"Open Sans", sans-serif;  
+    font-size: 17px; 
+}
+
+.testmonials_section .container-fluid{
+    width: 100%;
+    position: relative;
+}
+.single-box{
+    background-color: #fff;
+    min-height: 200px;
+    margin-right: 40px;
+    margin-left: 30px;
+    height: 270px;
+    box-shadow: 0px 2px 12px rgb(0 0 0 / 8%);
+}
+.container-fluid .row{
+    margin-left: 50px;
+    margin-right: 30px;
+    height: 350px;
+}
+.single-box .img-card img{
+    width: 12%;
+    border-radius: 4px;
+    position: absolute;
+    left: 0px;
+    top:30px;
+}
+.single-box .title-card{
+    padding:40px 55px;
+
+}
+.single-box .title-card h3{
+    margin-bottom: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #111;
+    font-family: "Releway", sans-serif;
+
+}
+.single-box .title-card h4{
+    font-size: 14px;
+    color: #999;
+    font-family: "Releway", sans-serif;
+}
+.single-box i{
+    color: #e1f0fa;
+    font-size: 22px;
+    font-style:normal;
+    font-variant: normal;
+    line-height: 1.3;
+    text-rendering: auto;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+}
+.single-box .fa-quote-left{
+    position: relative;
+    left: -5px;
+}
+.single-box .fa-quote-right{
+    position: relative;
+    right: -5px;
+    top: 5px;
+}
+.single-box .text-card {
+    position: relative;
+    bottom: 80px;
+    font-style: italic;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.carousel-indicators li{
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #3498db;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+.carousel-indicators .active{
+    background-color: #3498db;
+}
+/* test finished */
+.pricing-section{
+    background-color: #fff;
+    overflow: hidden;
+    padding-top: 50px;
+}
+.pricing_title{
+    text-align: center;
+    padding-bottom: 45px;
+}
+.pricing-section  .pricing_title h2{
+    position: relative;
+    max-width: 450px;
+    margin: 20px auto;
+    text-align: center;
+}
+.hr:before
+{
+    content: " ";
+    height: 2px;
+    width: 55px;
+    background-color: #3498db;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+}
+.hr:after
+{
+    content: " ";
+    height: 2px;
+    width: 55px;
+    background-color: #3498db;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+}
+.pricing-section  .pricing_title p{
+    color: #444444;
+    font-family:"Open Sans", sans-serif;  
+    font-size: 17px; 
+}
+.pricing-section .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pricing-section .col-lg-4{
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+.pricing-section .pricing-body{
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #f9f9f9;
+}
+.pricing-section .mid{
+    border: 2px solid #3498db;
+}
+.pricing-section .pricing-body h3{
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #222222;
+}
+.pricing-section .pricing-body h4{
+    font-size: 42px;
+    color: #3498db;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 20px;
+}
+.pricing-section .pricing-body h4 sup{
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+}
+.pricing-section .pricing-body h4 span{
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+}
+.pricing-section .pricing-body .list{
+    padding: 0;
+    list-style: none;
+    color: #222222;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+}
+.pricing-section .pricing-body .list li{
+    padding-bottom: 17px;
+}
+.pricing-section .pricing-body .list .none{
+    color: #ccc;
+    text-decoration: line-through;
+}
+.pricing-section .pricing-body .btn{
+    padding: 15px;
+    text-align: center;
+}
+.pricing-section .pricing-body .btn-buy{
+    display: inline-block;
+    padding: 10px 40px 12px 40px;
+    border-radius: 50px;
+    border: 2px solid #3498db;
+    color: #3498db;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.pricing-section .pricing-body .btn-buy:hover{
+    background-color: #3498db;
+    border-color: #2383c4;
+    color: #fff;
+}
+.pricing-section .pricing-body .btn-buy2{
+    display: inline-block;
+    padding: 10px 40px 12px 40px;
+    border-radius: 50px;
+    background-color: #3498db;
+    border: 2px solid #3498db;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.pricing-section .pricing-body .btn-buy2:hover{
+    background-color: #2383c4;
+}
+/* pricing finished */
+.Frequently{
+    padding-top: 50px;
+}
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+.Frequently .faq-item {
+    margin: 20px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+.Frequently .faq-item h4 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    margin: 0 0 10px 32px;
+    font-family: "Poppins", sans-serif;
+}
+.Frequently .faq-item p {
+    font-size: 15px;
+    color: #444444;
+
+}
+ 
+.Frequently .faq-item i{
+    color: #8bc4ea;
+    font-size: 21px;
+    float: left;
+    line-height: 0;
+    padding: 13px 0 0 0;
+    margin: 0;
+
+}
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    color: #222222;
+    margin: auto;
+}
+.section-title h2::after {
+    margin: 0 0 10px 15px;
+}
+.section-title h2::before {
+    margin: 0 15px 10px 0;
+}
+.section-title h2::before, .section-title h2::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #3498db;
+    display: inline-block;
+}
+
+/* frequenty finished */
+.contact .contact_about h3 {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #222222;
+}
+.contact .contact_about p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Raleway", sans-serif;
+    color: #888;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.contact .social a {
+    font-size: 18px;
+    display: inline-block;
+    background: #fff;
+    color: #3498db;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    border: 1px solid #3498db;
+}
+.contact .info p {
+    padding: 0 0 10px 42px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #6c757d;
+}
+.contact .info i {
+    font-size: 32px;
+    color: #3498db;
+    float: left;
+    line-height: 1;
+}
+.load{
+    margin-bottom: 20px;
+}
+.contact .php-email-form input, .contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 10px 15px;
+}
+.contact .php-email-form button[type=submit] {
+    background: #3498db;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+.contact .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+}
+.contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+}
+.contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+/* contact us finished */
+#footer {
+    background: #fff;
+    box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 10%);
+    padding: 30px 0;
+    color: #222222;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+#footer .credits {
+    font-size: 13px;
+    padding-top: 5px;
+    color: #222222;
+}
+.text-center {
+    text-align: center!important;
+}
+#footer .f_links a :nth-child(1){
+    padding-left: 0;
+}
+#footer .f_links a {
+    color: #222222;
+    padding-left: 15px;
+}
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+    display: flex;
+}
+.back-to-top i {
+    font-size: 28px;
+    color: #3498db;
+    line-height: 0;    
+}
+
+/* footer finished */
